@@ -68,6 +68,10 @@ func drivetrainName(t int32) string {
 
 // parsePacket decodes a Forza Horizon "Dash" UDP packet.
 //
+// The packet layout used here grew out of richstokes/Forza-data-tools
+// (https://github.com/richstokes/Forza-data-tools), which is where this
+// project first learned to read Forza's "Data Out" stream.
+//
 // Layout reference (little-endian): the first 232 bytes are the shared
 // "sled" block. Horizon titles (FH4/FH5/FH6) insert 12 bytes of padding
 // after the sled, so the "dash" block begins at byte 244. Forza Motorsport's

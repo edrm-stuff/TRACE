@@ -68,4 +68,6 @@ Early, solo project — currently **v0.1.0**. It works and has been tested live 
 
 ## Credits
 
+The telemetry side of TRACE started from [richstokes/Forza-data-tools](https://github.com/richstokes/Forza-data-tools) — that project was the bridge that got me reading Forza's "Data Out" stream in the first place, and the foundation the parsing grew from. Big thanks.
+
 Built with [Wails](https://wails.io/) (Go + JavaScript), and with a good amount of AI assistance along the way — including digesting the tuning guides that shaped the calculator's logic.
