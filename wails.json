@@ -1,0 +1,17 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "forzatunes",
+  "outputfilename": "forzatunes",
+  "frontend:install": "",
+  "frontend:build": "",
+  "frontend:dev:watcher": "",
+  "frontend:dev:serverUrl": "",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "info": {
+    "comments": "Forza telemetry-driven tuning calculator",
+    "productName": "Forza Tunes"
+  }
+}
